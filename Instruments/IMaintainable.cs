@@ -2,9 +2,8 @@ using System;
 
 namespace Instruments
 {
-    public interface IInstrument
+    public interface IMaintainable
     {
-        void PlaySong();
         void PerformMaintenance();
     }
 }
