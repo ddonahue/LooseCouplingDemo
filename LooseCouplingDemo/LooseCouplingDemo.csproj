@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Instruments\Instruments.csproj" />
+    <ProjectReference Include="..\Guitar\Guitar.csproj" />
+    <ProjectReference Include="..\SnareDrum\SnareDrum.csproj" />
     <ProjectReference Include="..\Roadies\Roadies.csproj" />
     <ProjectReference Include="..\Band\Band.csproj" />
   </ItemGroup>

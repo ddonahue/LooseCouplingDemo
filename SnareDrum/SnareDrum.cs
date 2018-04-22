@@ -2,7 +2,7 @@ using System;
 using Band;
 using Roadies;
 
-namespace Instruments
+namespace SnareDrum
 {
     public class SnareDrum : IMaintainable, IPlayable
     {

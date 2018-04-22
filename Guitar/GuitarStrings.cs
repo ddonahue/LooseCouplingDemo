@@ -1,6 +1,6 @@
 using System;
 
-namespace Instruments
+namespace Guitar
 {
     public class GuitarStrings
     {
