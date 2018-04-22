@@ -1,4 +1,4 @@
-namespace Instruments
+namespace Band
 {
     public interface IPlayable
     {
