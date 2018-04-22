@@ -2,7 +2,7 @@ using System;
 
 namespace Instruments
 {
-    public class SnareDrum
+    public class SnareDrum : IInstrument
     {
         private bool hasNewDrumHead;
 

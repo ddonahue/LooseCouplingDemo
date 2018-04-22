@@ -2,7 +2,7 @@
 
 namespace Instruments
 {
-    public class Guitar
+    public class Guitar : IInstrument
     {
         private GuitarStrings guitarStrings;
 

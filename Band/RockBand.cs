@@ -5,14 +5,11 @@ namespace Band
 {
     public class RockBand
     {
-        public void PlaySong(params object[] instruments)
+        public void PlaySong(params IInstrument[] instruments)
         {
             foreach(var instrument in instruments)
             {
-                if (instrument is Guitar)
-                    ((Guitar)instrument).PlaySong();
-                else if (instrument is SnareDrum)
-                    ((SnareDrum)instrument).PlaySong();
+                instrument.PlaySong();
             }
         }
     }
