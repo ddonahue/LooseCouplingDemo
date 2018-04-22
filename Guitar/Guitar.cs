@@ -2,7 +2,7 @@
 using Band;
 using Roadies;
 
-namespace Instruments
+namespace Guitar
 {
     public class Guitar : IMaintainable, IPlayable
     {

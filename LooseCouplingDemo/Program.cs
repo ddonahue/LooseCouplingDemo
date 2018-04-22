@@ -1,6 +1,7 @@
 ﻿using System;
 using Band;
-using Instruments;
+using Guitar;
+using SnareDrum;
 using Roadies;
 
 namespace LooseCouplingDemo
@@ -9,8 +10,8 @@ namespace LooseCouplingDemo
     {
         static void Main(string[] args)
         {
-            var guitar = new Guitar();
-            var snareDrum = new SnareDrum();
+            var guitar = new Guitar.Guitar();
+            var snareDrum = new SnareDrum.SnareDrum();
 
             var roadie = new Roadie();
             var band = new RockBand();
