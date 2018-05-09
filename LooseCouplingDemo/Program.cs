@@ -19,6 +19,8 @@ namespace LooseCouplingDemo
             roadie.MaintainInstruments(guitar, snareDrum);
             band.PlaySong(guitar, snareDrum);
             band.PlaySong(guitar, snareDrum);
+
+            Console.ReadLine();
         }
     }
 }
